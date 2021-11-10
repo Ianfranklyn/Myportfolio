@@ -1,0 +1,104 @@
+body {
+margin:0;
+background-color: rgb(95, 87, 77);
+font-size:large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+   .home-image{
+     height:50%;
+     background-position:center;
+     background-size: cover;
+     position:relative; 
+   }
+    .home-image .homebottomlefttxt{
+      position:absolute;
+      bottom:20px;
+      left:20px;
+      padding:20px;
+      color:beige;
+
+     }
+      .about-me {
+         display:flex;
+         flex-direction:row;
+         justify-content:center;
+         height: 200px;
+         align-items: center;
+         background-color:cornsilk;
+      }
+        .about-me >div{
+        width: 100%;
+        height: auto;
+        align-content: space-between;
+        padding:15px;
+        font-size: 30px;
+        text-align: left;
+
+        }
+        .about-me .guitar{
+         max-width: 100%;  
+         height: auto;  
+        }
+        .about-me .ball{
+         max-width: 100%;  
+         height: auto;  
+        }
+        .about-me .coding{
+         max-width: 100%;  
+         height: auto;  
+        }
+
+    .projects{
+      position: relative;
+
+     }    
+     .projects .projbottomlefttxt{
+       position: absolute;
+       bottom:20px;
+       left:20px;
+       width:100%;
+       padding:20px;
+       color:whitesmoke;
+
+     }
+     .reason{
+      position: relative;
+      font-family:Arial;
+
+     }    
+     .reason .reastextleft {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background-color: rgb(146, 212, 39);
+      border-radius: 20px;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+
+     }
+     @media only screen and (max-width: 600px) {
+      body {
+        background-color: gray;
+      }
+    }@media only screen and (min-width: 600px) {
+      body {
+        background-color: lightyellow;
+      }
+    }@media only screen and (min-width: 768px) {
+      body {
+        background-color: bisque;
+      }
+    }@media only screen and (min-width: 992px) {
+      body {
+        background-color: beige;
+      }
+    }@media only screen and (min-width: 1200px) {
+      body {
+        background-color: mediumspringgreen;
+      }
+    }
+
+
+
