@@ -10,8 +10,7 @@ My Portfolio contains a project I  have done and the languages I used  have used
 
 ## Live link 
 
-http://127.0.0.1:5500/Portfolio.html/LandingPortf.html
-
+https://ianfranklyn.github.io/Myportfolio/
 ## Known Bugs
 I'm not sure about the bootstrap Intergration.Added the link tags .
 
